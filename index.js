@@ -32,7 +32,10 @@ estersCat.isGrumpy = true
 Object.values(estersCat) // => ['Momo','non binary',2,false,undefined,[ 'tuna', 'ham', 'fish' ],{ name: 'Mango', age: 2 },true]
 // Este método nos permite acceder a todos los valores de un objeto.
 
-// 5) ¿Qué diantres es un Array?
+// 5) Borrar propiedades de un array
+delete estersCat.name // El operador delete nos permite borrar propiedades de un objeto
+
+// 6) ¿Qué diantres es un Array?
 const cutestAnimals = {
   0: "Dolphin",
   1: "Pig",
